@@ -43,6 +43,10 @@ footer
 .avatar
   text-align: center
   img
+    width: 150px
+    @include at-breakpoint($break-tablet)
+      width: 200px
+    breakpoint
     @include border-radius(99em)
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3)
 body
