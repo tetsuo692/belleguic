@@ -1,7 +1,6 @@
 //
 // Main Stylesheet
 //
-
 @import "compass"
 @import "h5bp"
 
@@ -15,6 +14,12 @@
 // Susy Grid Systems - choose one to customize
 // @import "grid/fixed"
 @import "grid/magic"
+
+@import "colors"
+
+@import "font-awesome"
+@include font-face("Daniel Regular", font-files("daniel.ttf"))
+
 
 // Your own styles go here.
 h1
@@ -31,15 +36,31 @@ footer
   margin-top: 3em
   text-align: right
 
+.avatar, .description p, .description h2
+  display: none
 .container
-  // Force images to scale down to their container widths.
+  margin-top: 20%
+.avatar
+  text-align: center
   img
-    max-width: 100%
-    height: auto
+    @include border-radius(99em)
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3)
+body
+  font-family: "Daniel Regular"
 
+h2.name
+  font-size: 1.8em
+  color: $blue
+p
+  color: $green
+a
+  font-size: 1.8em
+  color: $blue
+  text-decoration: none
 
-// H5BP helper classes & mixins.
-// @include h5bp-helpers
+a:hover
+  color: $green
+  font-size: 2em
 
 // Print styles.
 @include h5bp-media

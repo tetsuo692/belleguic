@@ -28,22 +28,22 @@
         You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
     .container
       %header
-        %h1= current_page.data.title
+
       #main-content{:role => "main"}
 
         -# Page content gets rendered here
         = yield
 
       %footer
-        %p &copy; #{copyright_years(2011)} AmicusUser
 
-    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"
     :javascript
       window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min.js"><\/script>')
 
     -# Holder.js - canvas-generated placeholder images for prototyping
     = javascript_include_tag "libs/holder"
-
+    = javascript_include_tag "mylibs/jQueryRotateCompressed"
     = javascript_include_tag "plugins", "script"
 
     -# Google Analytics: change UA-XXXXX-X to be your site's ID.
