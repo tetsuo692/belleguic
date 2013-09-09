@@ -9,7 +9,10 @@ $(function(){
     duration: 3000,
     callback: function(){
       $('.description h2').show('slide', {direction: 'right'}, 300, function(){
-       $('.description p').show('slide', {direction: 'up'}, 200);
+        $('.description h3').show('slide', {direction: 'left'}, 300, function(){
+          $('.description p').show('slide', {direction: 'right'}, 200);
+        });
+
       });
     }
   });
