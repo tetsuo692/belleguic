@@ -39,7 +39,9 @@ footer
 .avatar, .description p, .description h2
   display: none
 .container
-  margin-top: 20%
+  margin-top: 10px
+  @include at-breakpoint($break-tablet)
+    margin-top: 20%
 .avatar
   text-align: center
   img
