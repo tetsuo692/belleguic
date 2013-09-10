@@ -1,0 +1,579 @@
+/* line 33, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 40, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* line 48, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 55, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* line 69, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 82, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/* line 88, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 103, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/* line 109, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 122, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 127, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+/* line 132, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+/* line 137, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+/* line 142, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+/* line 147, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0; }
+
+/* line 153, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 159, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 163, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px; }
+
+/* line 168, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 174, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 181, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 188, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+  margin: 1em 0; }
+
+/* line 196, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/* line 203, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 210, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none; }
+
+/* line 216, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/* line 222, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 228, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 235, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 239, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 253, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+/* line 257, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px; }
+
+/* line 264, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/* line 270, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* line 283, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+/* line 289, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 300, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* line 311, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0; }
+
+/* line 316, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 325, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+/* line 339, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+/* line 349, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+  line-height: normal; }
+
+/* line 358, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 372, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+/* line 380, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 389, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+
+/* line 399, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 409, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 415, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 422, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 434, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 22, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222222; }
+
+/* line 26, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4; }
+
+/* line 34, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* line 39, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* line 45, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 55, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+img {
+  vertical-align: middle; }
+
+/* line 60, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 67, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+textarea {
+  resize: vertical; }
+
+/* line 77, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_main.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* line 28, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+.container {
+  *zoom: 1;
+  max-width: 460px;
+  _width: 460px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box; }
+  /* line 38, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 34, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+header, #main-content, footer {
+  overflow: hidden;
+  *zoom: 1; }
+
+@media (min-width: 620px) {
+  /* line 43, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .container {
+    max-width: 620px;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box; } }
+@media (min-width: 620px) {
+  /* line 43, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .container {
+    max-width: 620px;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box; } }
+@media (min-width: 620px) {
+  /* line 43, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .container {
+    max-width: 620px;
+    -webkit-background-origin: content;
+    -moz-background-origin: content;
+    -ms-background-origin: content-box;
+    -o-background-origin: content-box;
+    background-origin: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-clip: content-box; } }
+@media (min-width: 620px) {
+  /* line 48, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .avatar {
+    width: 35.48387%;
+    float: left;
+    margin-right: 3.22581%; }
+
+  /* line 50, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .description {
+    width: 61.29032%;
+    float: right;
+    margin-right: 0; } }
+@media (min-width: 620px) {
+  /* line 54, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .avatar {
+    width: 35.48387%;
+    float: left;
+    margin-right: 3.22581%; }
+
+  /* line 56, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .description {
+    width: 61.29032%;
+    float: right;
+    margin-right: 0; } }
+@media (min-width: 620px) {
+  /* line 60, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .avatar {
+    width: 35.48387%;
+    float: left;
+    margin-right: 3.22581%; }
+
+  /* line 62, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/grid/_magic.sass */
+  .description {
+    width: 61.29032%;
+    float: right;
+    margin-right: 0; } }
+/**
+ * Include this file early in your Sass project to
+  * get access to Solarized colors and functions.
+   *
+    * Adapted from the outstanding work by Ethan Schoonover:
+     * http://ethanschoonover.com/solarized
+     */
+/* line 35, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/_colors.scss */
+html {
+  background-color: #002b36;
+  color: #839496; }
+
+@font-face {
+  font-family: "Daniel Regular";
+  src: url("../fonts/daniel.ttf") format('truetype'); }
+
+/* line 28, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+.avatar, .description p, .description h3, .description h2 {
+  display: none; }
+
+/* line 31, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+.container {
+  margin-top: 10px; }
+  @media (min-width: 620px) {
+    /* line 31, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+    .container {
+      margin-top: 20%; } }
+
+/* line 35, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+.avatar {
+  text-align: center; }
+  /* line 37, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+  .avatar img {
+    width: 150px;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    -ms-border-radius: 99em;
+    -o-border-radius: 99em;
+    border-radius: 99em;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); }
+    @media (min-width: 620px) {
+      /* line 37, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+      .avatar img {
+        width: 200px; } }
+
+/* line 44, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+body {
+  font-family: "Daniel Regular"; }
+
+/* line 47, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+h2.name {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  color: #268bd2; }
+
+/* line 51, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+h3.title {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  color: #d33682; }
+
+/* line 54, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+p {
+  color: #859900; }
+
+/* line 56, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+a {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  color: #268bd2;
+  text-decoration: none; }
+
+/* line 61, /Users/guillaumebelleguic/test/belleguic/source/stylesheets/screen.css.sass */
+a:hover {
+  color: #859900; }
+
+@media print {
+  /* line 11, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  /* line 19, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  /* line 23, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  /* line 27, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /* line 37, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  /* line 42, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /* line 47, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group; }
+
+  /* line 52, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  /* line 56, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  /* line 66, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  /* line 72, /Users/guillaumebelleguic/.rvm/gems/ruby-2.0.0-p0/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  h2,
+  h3 {
+    page-break-after: avoid; } }
